@@ -1,5 +1,5 @@
 const { Router } = require('express')
-const products = require('./products')
+const products = require('../products')
 
 let localProducts =[...products]
 
